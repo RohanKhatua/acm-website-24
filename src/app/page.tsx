@@ -3,6 +3,7 @@ import Hero from "~/components/hero";
 import ImpactBox from "~/components/impact_box";
 import Team from "~/components/team";
 import Events from "~/components/events";
+import Contact from "~/components/contact";
 
 export default function HomePage() {
   return (
@@ -11,7 +12,8 @@ export default function HomePage() {
       <Hero />
       <ImpactBox />
       <Team />
-      <Events />
+      {/* <Events /> */}
+      <Contact></Contact>
     </main>
   );
 }

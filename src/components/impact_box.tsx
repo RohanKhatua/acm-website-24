@@ -15,9 +15,6 @@ export default function ImpactBox() {
             <div className="flex justify-end">
                 <Button variant="ghost" className="w-44 border custom-border text-xl flex flex-row justify-center items-center gap-2">About Us {' '}<ArrowRightIcon /></Button>
             </div>
-            <div className="text-3xl pt-16 max-w-lg text-center">
-                Lorem ipsum dolor sit amet consectetur.
-            </div>
         </div>
 
     );
