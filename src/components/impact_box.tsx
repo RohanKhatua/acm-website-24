@@ -9,7 +9,7 @@ export default function ImpactBox() {
             <div className="flex justify-end">
                 <div className="text-3xl text-right max-w-3xl">
                     <span className="sea-green">ACM-VIT : Pioneering Tech Advancement Since 2009.</span>
-                    <div className="slate-grey">We're a close-knit family dedicated to democratizing technology like our parent organization, ACM. Join us in shaping the future of computer science!</div>
+                    <div className="slate-grey">{`We are a close-knit family dedicated to democratizing technology like our parent organization, ACM. Join us in shaping the future of computer science!`}</div>
                 </div>
             </div>
             <div className="flex justify-end">
