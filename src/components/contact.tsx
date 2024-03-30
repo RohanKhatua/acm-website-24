@@ -16,7 +16,7 @@ export default function Contact() {
                         Follow us on social media for events, updates, and more.
                     </p>
                 </div>
-                <div className="flex flex-row gap-2 mx-auto max-w-sm md:gap-4 md:max-w-none lg:items-center lg:justify-center xl:gap-6">
+                <div className="flex flex-col md:flex-row gap-2 mx-auto max-w-sm md:gap-4 md:max-w-none lg:items-center lg:justify-center xl:gap-6">
                     <Link
                         className="flex h-10 items-center justify-center rounded-md border border-gray-200 shadow-sm text-sm font-medium gap-2 px-4 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-950 dark:hover:text-gray-50"
                         href="#"
