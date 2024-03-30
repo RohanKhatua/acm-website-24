@@ -27,18 +27,18 @@ export default function Team() {
             <div className="flex flex-row gap-5 md:gap-20 items-center justify-center">
                 <BoardMember img="/vidit.png" name="Vidit Kothari" pos="Developer Relations Lead"></BoardMember>
                 <BoardMember img="/saharsh.png" name="Saharsh Bhansali" pos="Research Lead"></BoardMember>
-                <BoardMember img="/sarthak.png" name="Sarthak Gupta" pos="Events Lead"></BoardMember>
+                <BoardMember img="/sarthak.png" name="Sarthak Gupta" pos="Projects Lead"></BoardMember>
             </div>
             <div className="flex flex-row gap-5 md:gap-20 items-center justify-center">
                 <BoardMember img="/hari.png" name="Hari R Kartha" pos="Internal Lead"></BoardMember>
                 <BoardMember img="/ritaank.png" name="Ritaank Gunjesh" pos="Design Lead"></BoardMember>
                 <BoardMember img="/ojal.png" name="Ojal Koshy" pos="Content Lead"></BoardMember>
             </div>
-
-
-
-
-
+            <div className="flex flex-row gap-5 md:gap-20 items-center justify-center">
+                <BoardMember img="/devanshi.png" name="Devanshi Tripathi" pos="ACM-W Vice-Chairperson"></BoardMember>
+                <BoardMember img="/anshuman.png" name="Anshuman Gupta" pos="ACM-W Chairperson"></BoardMember>
+                <BoardMember img="/aryan.png" name="Aryan Chaudhary" pos="ACM-W Secretary"></BoardMember>
+            </div>
         </div>
 
     );
