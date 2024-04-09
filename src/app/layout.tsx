@@ -1,6 +1,7 @@
 import "~/styles/globals.css";
 
 import { GeistMono } from "geist/font/mono";
+import { ThemeProvider } from "~/components/theme-provider";
 
 export const metadata = {
   title: "ACM-VIT",
@@ -15,7 +16,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${GeistMono.className}`}>{children}</body>
+
+      <body className={`${GeistMono.className}`}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+          {children}
+        </ThemeProvider>
+      </body>
+
     </html>
   );
 }
