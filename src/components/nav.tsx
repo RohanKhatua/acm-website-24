@@ -11,19 +11,19 @@ export default function Nav() {
                 <Link href="/">
                     Home
                 </Link>
-                <Link href="/">
+                <Link href="#team">
                     Team
                 </Link>
-                <Link href="/">
+                <Link href="#events">
                     Events
                 </Link>
-                <Link href="/">
+                <Link href="#projects">
                     Projects
                 </Link>
-                <Link href="/">
+                <Link href="#blogs">
                     Blogs
                 </Link>
-                <Link href="/">
+                <Link href="#about-us">
                     About Us
                 </Link>
             </div>

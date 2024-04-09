@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function BoardMember(person: { name: string, pos: string, img: string }) {
     return (
-        <div className="flex flex-row gap-5 items-center justify-center">
+        <div id="team" className="flex flex-row gap-5 items-center justify-center">
             <div className="flex flex-col items-center justify-center text-center">
                 <Image src={person.img} alt={person.name} width="200" height="200" className="pb-5"></Image>
                 <p className="font-bold">{person.name}</p>
